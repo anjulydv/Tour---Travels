@@ -10,4 +10,4 @@ const mySchema = new Schema({
 });
 
 
-module.exports = model( 'place' , mySchema);
+module.exports = model( 'place' , mySchema);    

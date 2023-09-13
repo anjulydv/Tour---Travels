@@ -19,6 +19,8 @@ import { Toaster} from 'react-hot-toast';
 import Signup from './components/Signup';
 import Addplaces from './components/Addplaces';
 import ViewPlaces from "./components/ViewPlaces";
+import Aboutus from "./components/Aboutus";
+import PlaceDetails from "./components/PlaceDetails";
 
 
 
@@ -42,6 +44,8 @@ function App() {
           <Route element={<Addplaces />} path='Addplaces' />
           <Route element={<BrowseLocation />} path='Browselocation' />
           <Route element={<ViewPlaces />} path='ViewPlaces/:location' />
+          <Route element={<PlaceDetails />} path='placedetails/:id' />
+          <Route element={<Aboutus/>} path='Aboutus' />
           
         </Routes>
         </UserProvider>

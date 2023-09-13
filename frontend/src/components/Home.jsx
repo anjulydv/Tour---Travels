@@ -10,10 +10,10 @@ const Home = () => {
         <div class="content">
           <h1 > Welcome to travel.co</h1>
           <h3>Visit <span class="changecontent"></span></h3>
-          <p>dasfadsfd</p>
+          <p>Choose Your Fvaourite Destination</p>
           <div style={{ textAlign: "center" }}>
 
-            <Link to="BrowseLocation">Book Places</Link>
+            <Link to="/BrowseLocation">Book Places</Link>
           </div>
         </div>
       </div>

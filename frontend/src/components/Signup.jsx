@@ -79,6 +79,7 @@ const Signup = () => {
   };
 
   return (
+    <>
     
     <section className="h-100 bg-dark">
       <div className="container py-5 h-100">
@@ -88,7 +89,7 @@ const Signup = () => {
               <div className="row g-0">
                 <div className="col-xl-6 d-none d-xl-block">
                   <img
-                    src="signup.png"
+                    src="/images/signup.png"
                     alt="Sample photo"
                     className="img-fluid"
                    
@@ -298,6 +299,25 @@ const Signup = () => {
           
     
     </section>
+    <div class="copyRight">
+      <div class="container">
+        <div class="socialMedia">
+        
+          <a href="https://www.facebook.com/" class="sprite facebookIcon">&nbsp;</a>
+          <a href="https://twitter.com/" class="sprite twitterIcon">&nbsp;</a>
+          <div class="cRights">
+          <p class="whiteText latoBold appendBottom4">© 2023 TRAVEL.CO PVT. LTD.</p>
+          <p class="whiteText latoBold">Country<span class="latoBlack"><a class="whiteText" href="https://www.makemytrip.com/">
+                India
+              </a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=US">USA</a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=AE">UAE</a></span></p>
+        </div>
+       
+        </div>
+        </div>
+      </div>
+    </>
   
     
   );

@@ -60,6 +60,11 @@ const Navbar = () => {
               View Places
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/Aboutus">
+              About us
+            </NavLink>
+          </li>
 
 
         </>
@@ -104,6 +109,7 @@ const Navbar = () => {
 
             {showLoginOptions()}
           </ul>
+          {/* use ms auto */}
         </div>
         <form class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Search">

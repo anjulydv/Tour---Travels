@@ -56,6 +56,7 @@ const Contactus = () => {
       
        
   return (
+    <>
     
 
         <section className="vh-100" style={{ backgroundColor:"black" }}>
@@ -66,10 +67,10 @@ const Contactus = () => {
                 <div className="row g-0">
                   <div className="col-md-6 col-lg-5 d-none d-md-block" >
                     <img
-                      src="/images/contact-Us.jpg"
+                      src="/images2/login.png"
                       alt="Contactus form"
                       className="img-fluid"
-                      style={{ borderRadius: "1rem 0 0 1rem" }}
+                       style={{ borderRadius: "2rem 4 3 2rem",backgroundsize:"cover" }}
                     />
                   </div>
                   <div className="col-md-6 col-lg-7 d-flex align-items-center">
@@ -139,7 +140,29 @@ const Contactus = () => {
           </div>
         </div>
       </section>
+      <div class="copyRight">
+      <div class="container">
+        <div class="socialMedia">
+        
+          <a href="https://www.facebook.com/" class="sprite facebookIcon">&nbsp;</a>
+          <a href="https://twitter.com/" class="sprite twitterIcon">&nbsp;</a>
+          <div class="cRights">
+          <p class="whiteText latoBold appendBottom4">© 2023 TRAVEL.CO PVT. LTD.</p>
+          <p class="whiteText latoBold">Country<span class="latoBlack"><a class="whiteText" href="https://www.makemytrip.com/">
+                India
+              </a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=US">USA</a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=AE">UAE</a></span></p>
+        </div>
+       
+        </div>
+        </div>
+      </div>
+              
+
       
+     
+     </>
       )
     
   }

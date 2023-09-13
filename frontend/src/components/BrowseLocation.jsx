@@ -5,6 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles;
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 
 
@@ -125,10 +128,10 @@ const Addplaces = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide className='slide slide3'>Slide 3</SwiperSlide>
-            <SwiperSlide className='slide slide4'>Slide 4</SwiperSlide>
-            <SwiperSlide className='slide slide5'>Slide 5</SwiperSlide>
-            <SwiperSlide className='slide slide6'>Slide 6</SwiperSlide>
+            <SwiperSlide className='slide slide3'></SwiperSlide>
+            <SwiperSlide className='slide slide4'></SwiperSlide>
+            <SwiperSlide className='slide slide5'></SwiperSlide>
+            <SwiperSlide className='slide slide6'></SwiperSlide>
           </Swiper> *
         </>
 
@@ -136,13 +139,14 @@ const Addplaces = () => {
 
       <div className='carousel-inner'>
         <div className='carousel-item active'>
-          < div className="container mt-5">
+          < div className="container mt-5 ">
+          
             <div className="row">
               <div className="col-md-4 mb-4">
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="/public/images/Greece.png"
+                    src="/images/Greece.png"
                   />
                   <div className="card-body">
                     <p className="fw-bold">Greece</p>
@@ -173,8 +177,9 @@ const Addplaces = () => {
                 <div className="card">
                   <div className="img-container">
                     <img
-                      className="h-100 d-block m-auto"
-                      src="Spain.png"
+                      className="card-img-top"
+                      src="./images/Spain.png"
+                      style={{}}
                     />
                   </div>
                   <div className="card-body">
@@ -183,12 +188,12 @@ const Addplaces = () => {
                     <p className="fw-bold">
                       <i className="fa-solid fa-star" />
                       Spain, a country on Europe’s Iberian Peninsula, includes 17 autonomous regions with diverse geography
-                      and cultures. Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European masters.
+                      and cultures. Capital city Madrid is home to the Royal Palace and Prado museum, housing works by European mastersSegovia has a medieval castle (the Alcázar) and an intact Roman
                     </p>
 
                   </div>
                   <div className="card-footer">
-                  <Link className="btn btn-primary"
+                    <Link className="btn btn-primary"
                       to="/ViewPlaces/Spain">View Places
                       <i className="fa-solid fa-bolt fa-beat-fade" />
                     </Link>
@@ -203,7 +208,7 @@ const Addplaces = () => {
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="Turkey.png"
+                    src="./images/Turkey.png"
                   />
                   <div className="card-body">
                     <p className="fw-bold">Turkey</p>
@@ -218,11 +223,10 @@ const Addplaces = () => {
 
                   </div>
                   <div className="card-footer">
-                    <button className="btn btn-primary"
-                      link to="View Places">
-                      View Places
-                      <i className="fa-solid fa-bolt fa-beat-fade" />{" "}
-                    </button>
+                  <Link className="btn btn-primary"
+                      to="/ViewPlaces/Turkey">View Places
+                      <i className="fa-solid fa-bolt fa-beat-fade" />
+                    </Link>
                     {/* <button className="btn btn-danger">
               Add Place <i className="fa-solid fa-cart-shopping" />{" "}
             </button> */}
@@ -230,11 +234,11 @@ const Addplaces = () => {
                 </div>
               </div>
 
-              <div className="col-md-4 mb-4">
+               <div className="col-md-4 mb-4">
                 <div className="card">
                   <img
                     className="card-img-top"
-                    src="united state.png"
+                    src="./images/united state.png"
                   />
                   <div className="card-body">
                     <p className="fw-bold">United State</p>
@@ -247,25 +251,107 @@ const Addplaces = () => {
 
                   </div>
                   <div className="card-footer">
-                    <button className="btn btn-primary"
-                      link to="ViewPlaces">
-                      View Places<i className="fa-solid fa-bolt fa-beat-fade" />
-                    </button>
+                  <Link className="btn btn-primary"
+                      to="/ViewPlaces/United State">View Places
+                      <i className="fa-solid fa-bolt fa-beat-fade" />
+                    </Link>
+                    {/* <button className="btn btn-danger">
+              Add Place <i className="fa-solid fa-cart-shopping" />{" "}
+          </button> */}
+                  </div>
+                </div>
+              </div> 
+              <div className="col-md-4 mb-4">
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src="./tour-images/india.avif"
+                  />
+                  <div className="card-body">
+                    <p className="fw-bold">India</p>
+
+                    <p className="fw-bold">
+                      <i className="fa-solid fa-star" />
+                      The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s
+                      presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC
+                    </p>
+
+                  </div>
+                  <div className="card-footer">
+                  <Link className="btn btn-primary"
+                      to="/ViewPlaces/India">View Places
+                      <i className="fa-solid fa-bolt fa-beat-fade" />
+                    </Link>
                     {/* <button className="btn btn-danger">
               Add Place <i className="fa-solid fa-cart-shopping" />{" "}
             </button> */}
                   </div>
                 </div>
               </div>
+              <div className="col-md-4 mb-4">
+                <div className="card">
+                  <img
+                    className="card-img-top"
+                    src="./tour-images/india.avif"
+                    
+                  />
+                  <div className="card-body">
+                    <p className="fw-bold">India</p>
+
+                    <p className="fw-bold">
+                      <i className="fa-solid fa-star" />
+                      The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s
+                      presence into the Pacific Ocean. Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC
+                    </p>
+
+                  </div>
+                  <div className="card-footer">
+                  <Link className="btn btn-primary"
+                      to="/ViewPlaces/India">View Places
+                      <i className="fa-solid fa-bolt fa-beat-fade" />
+                    </Link>
+                    {/* <button className="btn btn-danger">
+              Add Place <i className="fa-solid fa-cart-shopping" />{" "}
+            </button> */}
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+            
+
+          
             </div>
 
           </div>
 
         </div>
       </div>
+     
+      <div class="copyRight">
+      <div class="container">
+        <div class="socialMedia">
+        
+          <a href="https://www.facebook.com/" class="sprite facebookIcon">&nbsp;</a>
+          <a href="https://twitter.com/" class="sprite twitterIcon">&nbsp;</a>
+          <div class="cRights">
+          <p class="whiteText latoBold appendBottom4">© 2023 TRAVEL.CO PVT. LTD.</p>
+          <p class="whiteText latoBold">Country<span class="latoBlack"><a class="whiteText" href="https://www.makemytrip.com/">
+                India
+              </a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=US">USA</a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=AE">UAE</a></span></p>
+        </div>
+       
+        </div>
+        </div>
+      </div>
+              
 
 
     </>
+   
 
   )
 }

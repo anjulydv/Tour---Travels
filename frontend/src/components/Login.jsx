@@ -74,6 +74,7 @@ const Login = () => {
 
 
   return (
+    <>
     <section className="vh-100" style={{ backgroundColor: "#9A616D" }}>
     <div className="container py-5 h-100">
       <div className="row d-flex justify-content-center align-items-center h-100">
@@ -82,7 +83,7 @@ const Login = () => {
             <div className="row g-0">
               <div className="col-md-6 col-lg-5 d-none d-md-block">
                 <img
-                  src="\loginn.avif"
+                  src="/images/loginn.avif"
                   alt="login form"
                   className="img-fluid"
                   style={{ borderRadius: "1rem 0 0 1rem" }}
@@ -151,6 +152,25 @@ const Login = () => {
       </div>
     </div>
   </section>
+  <div class="copyRight">
+      <div class="container">
+        <div class="socialMedia">
+        
+          <a href="https://www.facebook.com/" class="sprite facebookIcon">&nbsp;</a>
+          <a href="https://twitter.com/" class="sprite twitterIcon">&nbsp;</a>
+          <div class="cRights">
+          <p class="whiteText latoBold appendBottom4">© 2023 TRAVEL.CO PVT. LTD.</p>
+          <p class="whiteText latoBold">Country<span class="latoBlack"><a class="whiteText" href="https://www.makemytrip.com/">
+                India
+              </a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=US">USA</a>
+              <a class="whiteText" href="https://www.makemytrip.com/?ccde=AE">UAE</a></span></p>
+        </div>
+       
+        </div>
+        </div>
+      </div>
+    </>
   
   )
 }
