@@ -8,3 +8,6 @@
 
 #Popular Destinations
 ![alt text](https://github.com/anjulydv/Tour---Travels/blob/master/Screenshots/Screenshot%20(50).png?raw=true)
+
+#....
+![alt text](https://github.com/anjulydv/Tour---Travels/blob/master/Screenshots/Screenshot%20(51).png?raw=true)
